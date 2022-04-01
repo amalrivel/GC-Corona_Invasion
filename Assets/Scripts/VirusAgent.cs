@@ -61,7 +61,7 @@ public class VirusAgent : Agent
 
         // Move the target to a new spot
         Target.localPosition = new Vector3(Random.value * 8 - 4,
-                                           0.5f,
+                                           0.0f,
                                            Random.value * 8 - 4);
     }
 
